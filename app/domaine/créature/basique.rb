@@ -1,7 +1,7 @@
 module Domaine
   module Créature
     class Basique
-      def attr_reader :caractéristiques
+      attr_reader :caractéristiques
 
       def initialize
         @caractéristiques = Caractéristiques.new
